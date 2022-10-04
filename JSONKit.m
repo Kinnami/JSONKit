@@ -97,6 +97,9 @@
 
 */
 
+/* Before including anything, set essential platform option compiler switches */
+#include "PLT/BoxPLTPlatformTarget.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
@@ -107,22 +110,13 @@
 #include <limits.h>
 #include <objc/runtime.h>
 
-#import "JSONKit.h"
+/* Include this AmiShare library's umbrella header file to ensure everything is included in the right order for C, Objective C, C++, Objective C++ */
+#import "BoxOSBase.h"
 
-//#include <CoreFoundation/CoreFoundation.h>
 #include <CoreFoundation/CFString.h>
 #include <CoreFoundation/CFArray.h>
 #include <CoreFoundation/CFDictionary.h>
 #include <CoreFoundation/CFNumber.h>
-
-//#import <Foundation/Foundation.h>
-#import <Foundation/NSArray.h>
-#import <Foundation/NSAutoreleasePool.h>
-#import <Foundation/NSData.h>
-#import <Foundation/NSDictionary.h>
-#import <Foundation/NSException.h>
-#import <Foundation/NSNull.h>
-#import <Foundation/NSObjCRuntime.h>
 
 #ifndef __has_feature
 #define __has_feature(x) 0

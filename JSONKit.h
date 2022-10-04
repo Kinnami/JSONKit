@@ -59,14 +59,8 @@
 #include <TargetConditionals.h>
 #include <AvailabilityMacros.h>
 
-#ifdef    __OBJC__
-#import <Foundation/NSArray.h>
-#import <Foundation/NSData.h>
-#import <Foundation/NSDictionary.h>
-#import <Foundation/NSError.h>
-#import <Foundation/NSObjCRuntime.h>
-#import <Foundation/NSString.h>
-#endif // __OBJC__
+/* Include the essential Objective C environment umbrella header file(s) */
+#import <Foundation/Foundation.h>			/* See "Foundation Framework Reference" and "Foundation Reference Update" */
  
 #ifdef __cplusplus
 extern "C" {
