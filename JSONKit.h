@@ -59,7 +59,7 @@
 #include <TargetConditionals.h>
 #include <AvailabilityMacros.h>
 
-/* Include the essential Objective C environment umbrella header file(s) */
+/* Include the essential Objective-C environment umbrella header file(s) */
 #import <Foundation/Foundation.h>			/* See "Foundation Framework Reference" and "Foundation Reference Update" */
  
 #ifdef __cplusplus

@@ -110,7 +110,7 @@
 #include <limits.h>
 #include <objc/runtime.h>
 
-/* Include this AmiShare library's umbrella header file to ensure everything is included in the right order for C, Objective C, C++, Objective C++ */
+/* Include this AmiShare library's umbrella header file to ensure everything is included in the right order for C, Objective-C, C++, Objective-C++ */
 #import "BoxOSBase.h"
 
 #include <CoreFoundation/CFString.h>
